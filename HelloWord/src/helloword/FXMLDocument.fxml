@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/22" fx:controller="helloword.FXMLDocumentController">
+   <children>
+      <Button fx:id="btnClick" layoutX="134.0" layoutY="110.0" mnemonicParsing="false" onAction="#clicouBotao" text="Clica ai " />
+      <Label fx:id="lblMessage" layoutX="127.0" layoutY="56.0" text="Olha o texto" textFill="#e09d00" />
+   </children>
+</AnchorPane>
