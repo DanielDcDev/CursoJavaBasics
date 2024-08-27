@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="HelloWord.jar" size="2548" download="eager" />
+    <jar href="HelloWord.jar" size="2571" download="eager" />
   </resources>
   <jfx:javafx-desc  width="800" height="600" main-class="helloword.HelloWord"  name="HelloWord" />
   <update check="always"/>

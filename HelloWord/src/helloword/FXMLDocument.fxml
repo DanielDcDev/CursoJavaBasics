@@ -4,9 +4,11 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/22" fx:controller="helloword.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="helloword.FXMLDocumentController">
    <children>
-      <Button fx:id="btnClick" layoutX="134.0" layoutY="110.0" mnemonicParsing="false" onAction="#clicouBotao" text="Clica ai " />
-      <Label fx:id="lblMessage" layoutX="127.0" layoutY="56.0" text="Olha o texto" textFill="#e09d00" />
+      <Label fx:id="lblHora" layoutX="137.0" layoutY="140.0" text="Hora" textFill="#e09d00" />
+      <Button fx:id="btnIdioma" layoutX="124.0" layoutY="29.0" mnemonicParsing="false" onAction="#SetIdioma" text="Idioma" />
+      <Button fx:id="Hora" layoutX="129.0" layoutY="100.0" mnemonicParsing="false" onAction="#SetHora" text="Hora" />
+      <Label fx:id="lblIdioma" layoutX="132.0" layoutY="70.0" text="Idioma" textFill="#e09d00" />
    </children>
 </AnchorPane>

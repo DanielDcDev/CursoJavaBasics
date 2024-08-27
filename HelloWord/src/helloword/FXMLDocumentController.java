@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXML2.java to edit this template
- */
+
 package helloword;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -13,12 +10,17 @@ import javafx.scene.control.Label;
 public class FXMLDocumentController implements Initializable {
     
     @FXML
-    private Label lblMessage;
-    private Button btnClick;
+    private Label lblIdioma;
+    private Button btnIdioma;
+    private Label lblHora;
+    private Button btnHora;
     
         @FXML
-        private void clicouBotao(ActionEvent event) {
-            lblMessage.setText("Hello World!");
+        private void SetIdioma(ActionEvent event) {
+            lblIdioma.setText("Hello World!");
+        }
+        private void SetHora(ActionEvent event) {
+            lblHora.setText("Hello World!");
         }
 
         @Override
