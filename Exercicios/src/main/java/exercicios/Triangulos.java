@@ -218,12 +218,7 @@ public class Triangulos extends javax.swing.JFrame {
         }else {
             txtForma.setText("Nao forma um triangulo!");
             txtTipo.setText ("---");
-        }
-        
-        
-        
-        
-        
+        }       
         painel.setVisible(true);
     }//GEN-LAST:event_btnTrianActionPerformed
 
